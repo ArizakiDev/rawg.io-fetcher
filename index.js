@@ -14,7 +14,7 @@ const fs = require('fs');
 const path = require('path');
 
 const apiKey = 'Your_apiKey';
-const apiUrl = `https://api.rawg.io/api/games?key=${apiKey}&page_size=15`; //You can up the number of pages_size
+const apiUrl = `https://api.rawg.io/api/games?key=${apiKey}&platforms=18`; //You can change the id for the plateform, check the doc
 
 async function fetchGames(page) {
     try {
