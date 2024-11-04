@@ -62,3 +62,5 @@ The `games.json` file follows this structure:
 ...
 ]
 ```
+
+**PS4 Need 334 pages for games.**
